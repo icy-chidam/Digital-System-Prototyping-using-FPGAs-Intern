@@ -5,7 +5,7 @@ Software used :- QuestaSim,ModelSim
 
 Books for reference:-
 "Douglas A. Pucknell" - Douglas A. Pucknell <br>
-"CMOS Digital IC Circuit analysis and Design"-MC GAW hill <br>
+"CMOS Digital IC Circuit analysis and Design"-MC GRAW hill <br>
 "Digital integrated circuit design from vlsi architectures to cmos fabrication" - Hubert Kaeslin
 
 ## Getting started with Modelsim and Questasim
