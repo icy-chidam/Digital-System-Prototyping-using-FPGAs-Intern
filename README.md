@@ -8,5 +8,4 @@ Books for reference:-
 "CMOS Digital IC Circuit analysis and Design"-MC GAW hill
 "digital integrated circuit design from vlsi architectures to cmos fabrication" - Hubert Kaeslin
 
-
-
+## Getting started with Modelsim and Questasim
