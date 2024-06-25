@@ -20,6 +20,26 @@ Creating a structural description from a behavioral one is achieved through the 
 
 Creating a physical description from a structural one is achieved through layout synthesis.<br>
 
+## Synthesis vs Compilation
+
+### Compilation
+The RTL files and the testbench files are text files that need to be analyzed before you can even think about simulation. A tool called a parser will read every HDL file and check that the syntax is correct. Every language has a LRM, a (language reference manual) that defines the syntax that is valid. Several HDL languages have different versions, hence different LRM requirements. The compiler is in fact a parser that checks every HDL file for syntax errors. It will report warnings and errors related to the code you have written. All files, RTL and behavoural need to be syntactically correct before you can go to the next step, elaboration.
+
+### Synthesis
+Synthesis is the process of converting RTL code, typically written in hardware description languages like Verilog or VHDL, into a gate-level netlist. It involves mapping the functionality specified in the RTL code to a library of standard cells, such as NAND, NOR, XOR gates, etc., provided by the target technology.
+
+Things that we need for the synthesis.....
+RTL Code,Technology Libraries,Constraint Files
+
+The need to use GLS (Gate level simulation)<br>
+The term "gate level" refers to the netlist view of a circuit, usually produced by logic synthesis. So while RTL simulation is pre-synthesis, GLS is post-synthesis. The netlist view is a complete connection list consisting of gates and IP models with full functional and timing behavior. RTL simulation is a zero delay environment and events generally occur on the active clock edge. GLS can be zero delay also, but is more often used in unit delay or full timing mode. Events may be triggered by the clock, but will propagate according to the delays on each element. The loading and wiring delay models of the netlist can be estimated by the synthesis tools, or can be output from the layout tools. These delay models usually come in the form of an SDF (standard delay format) file.
+
+![image](https://github.com/ARX-0/Digital-System-Prototyping-using-FPGAs-Intern/assets/143102635/1f8d60b8-5ebb-4161-8cc6-b603661904f9)
+
+![image](https://github.com/ARX-0/Digital-System-Prototyping-using-FPGAs-Intern/assets/143102635/9088652b-5f25-46db-86b2-2eba0dac05a9)
+
+![image](https://github.com/ARX-0/Digital-System-Prototyping-using-FPGAs-Intern/assets/143102635/0f476501-d1b3-4e96-b792-c7f5a8b38e09)
+
 #### Software used :- QuestaSim,ModelSim
 
 #### Books for reference:-
@@ -31,7 +51,7 @@ Creating a physical description from a structural one is achieved through layout
 
 
 
-# the rough work for today 
+### the rough work for today 
 
 writing syntehesizeable code in verilog that actually work 
 
