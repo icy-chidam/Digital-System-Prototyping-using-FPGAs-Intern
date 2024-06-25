@@ -28,3 +28,52 @@ Creating a physical description from a structural one is achieved through layout
 "Digital integrated circuit design from vlsi architectures to cmos fabrication" - Hubert Kaeslin
 
 ## Getting started with Modelsim and Questasim
+
+
+
+# the rough work for today 
+
+writing syntehesizeable code in verilog that actually work 
+
+schematic has 6000 pages maximum so we go for
+
+IP means Intelectual Protocols it is the base for REUSABILITY 
+
+Bottom-up (bricks n to a building) and top down (reverse) approach ....
+
+Lesser TTM (time to market) is what you will see in the market :)
+behaviorial codes we do use reg type not net and wire WHY?
+BLOCKING AND NON BLOCKING STATEMETS IN VERILOG 
+
+(changing a value in either one of the inputs causes a EVENT -> leads to another event) hardware is CONCURRENT 
+
+Single kernel architecture is better ahm just verilog file no intermidiate files time consumed is vv less :) 
+double kernel arch 
+
+
+you cant tapeout opensource hardware ? damn .....  primetime and caliber 
+
+get the tool list of the companies and compile them :) 
+
+with a single cond statement y = sel ? a:b;
+
+8x8 64 bit memory 
+reg [0:63] mem [0:7][0:7]
+how to acess and find the very first bit of the very last 7 of 7 th place in the mem register 
+
+difference between $ display nd $ monitor 
+display is only for 1 event 
+monitor is used for every single EVENT :)
+
+[1](https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/)<br>
+
+[2](https://chipedge.com/everything-you-need-to-know-about-synthesis-in-vlsi/#:~:text=Synthesis%20in%20VLSI%20is%20the,into%20a%20properly%20implemented%20chip.)<br>
+[3](
+https://www.google.com/search?q=ieee+standards+for+verilog+2005+and+2006&rlz=1C1JJTC_enIN1033IN1035&oq=ieee+standards+for+verilog+2005+and+2006+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAHSAQkxMTk2NWowajmoAgCwAgE&sourceid=chrome&ie=UTF-8)<br>
+[4](
+https://www.google.com/search?gs_ssp=eJzj4tLP1TcwS8mtTDI0YPRSLEstyszJT1dIzEtRKK4sLknNhYmk55ckZyQWAwB31xDQ&q=verilog+and+systemverilog+gotchas&rlz=1C1JJTC_enIN1033IN1035&oq=verilog+and+system+verilog+g&gs_lcrp=EgZjaHJvbWUqCQgBEC4YChiABDIGCAAQRRg5MgkIARAuGAoYgAQyCQgCEAAYChiABDINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTINCAYQABiGAxiABBiKBTINCAcQABiGAxiABBiKBTIKCAgQABiABBiiBNIBCDgwMDZqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8
+)
+<br>
+[5](https://web.engr.oregonstate.edu/~traylor/ece474/beamer_lectures/verilog_number_literals.pdf)<br>
+
+[6](https://www.geeksforgeeks.org/little-and-big-endian-mystery/)
