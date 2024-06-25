@@ -20,9 +20,9 @@ Creating a structural description from a behavioral one is achieved through the 
 
 Creating a physical description from a structural one is achieved through layout synthesis.<br>
 
-Software used :- QuestaSim,ModelSim
+#### Software used :- QuestaSim,ModelSim
 
-Books for reference:-
+#### Books for reference:-
 "Douglas A. Pucknell" - Douglas A. Pucknell <br>
 "CMOS Digital IC Circuit analysis and Design"-MC GRAW hill <br>
 "Digital integrated circuit design from vlsi architectures to cmos fabrication" - Hubert Kaeslin
