@@ -47,6 +47,12 @@ The term "gate level" refers to the netlist view of a circuit, usually produced 
 "Digital integrated circuit design from vlsi architectures to cmos fabrication" - Hubert Kaeslin
 
 ## Getting started with Modelsim and Questasim
+### Installation 
+In windows go to the following URL [link](https://www.intel.com/content/www/us/en/software-kit/750368/modelsim-intel-fpgas-standard-edition-software-version-18-1.html)
+</br> After installing .exe file  Do the following steps 
+![Screenshot 2024-06-26 141802](https://github.com/icy-chidam/Digital-System-Prototyping-using-FPGAs-Intern/assets/124269988/3351c89e-dc56-4dc9-8383-341782411dfa)
+
+Run the setup and install ModelSim
 
 * Creating the library in ModelSim.
 ![Lib-1](https://github.com/Jerin-Shaibu/Digital-System-Prototyping-using-FPGAs-Intern/assets/151813972/3ea1c769-8033-4c20-a847-2fe3dc07a853)
